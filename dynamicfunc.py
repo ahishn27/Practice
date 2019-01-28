@@ -7,7 +7,8 @@ def apply_func(func):
 def square(x):
     return x**2
 
-squarer = apply_func(square)
+square = apply_func(square)
+
 
 
 

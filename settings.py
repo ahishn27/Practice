@@ -12,10 +12,6 @@ dotenv.load_dotenv(found_dotenv)
 def apply_func(func):
     return lambda x:func(x)
 
-#functions gets the value based on the key passed 
-def from_env(key):
-     return os.getenv(key)
-
 #common function
 from_env = apply_func(os.getenv)
 

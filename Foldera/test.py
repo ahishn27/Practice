@@ -7,8 +7,8 @@ dotenv.load_dotenv(found_dotenv)
 def apply_func(func):
     return lambda x:func(x)
  
-def from_env(key):
-     return os.getenv(key)
+#def from_env(key):
+     #return os.getenv(key)
 
 from_env = apply_func(os.getenv)
 
